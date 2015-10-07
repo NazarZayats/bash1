@@ -12,6 +12,7 @@ alternatives --install /usr/bin/jar jar /opt/jdk1.8.0_45/bin/jar 2
 alternatives --install /usr/bin/javac javac /opt/jdk1.8.0_45/bin/javac 2
 alternatives --set jar /opt/jdk1.8.0_45/bin/jar
 alternatives --set javac /opt/jdk1.8.0_45/bin/javac
+alternatives --config java
 # Java variables ################################
 touch /etc/profile.d/java.sh  
 cat <<EOT >>/etc/profile.d/java.sh
