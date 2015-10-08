@@ -3,5 +3,5 @@ Install java_jdk_1.8.0-45 + TomCat + Maven + MariaDB + configure and deployment 
 <i> by NazarZ. </i> <br>
 ftp щоб перекину ОМС файл на VM  -- Pre-condition <br>
 last command (manual) : <br>
-cd /home/ftp155/oms5/scripts/
+cd /home/ftp155/oms5/scripts/ <br>
 mysql -u lv155 -plv155 oms</home/ftp155/oms5/scripts/addDataMySql.sql
