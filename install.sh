@@ -43,7 +43,7 @@ EOT
 yum -y install mariadb-server mariadb
 systemctl start mariadb
 systemctl enable mariadb
-mysql -u root -p <<EOT
+mysql -u root <<EOT
 Create user lv155@localhost identified by 'lv155';
 Grant all privileges on *.* to lv155@localhost identified by 'lv155' with grant option;
 Grant all privileges on *.* to lv155@'%' identified by 'lv155' with grant option;
